@@ -1,0 +1,9 @@
+## Error: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using server.example.com. 
+   Set the 'ServerName' directive globally to suppress this message ##
+
+**** Whenever you face above error, please check your /etc/hosts file ****
+**** Especially important if you are using aliases. Make sure that you are mentioning hostname including domain name part first and later alias(optional) ****
+**** x.x.x.x server.example.com server server ****
+
+
+
